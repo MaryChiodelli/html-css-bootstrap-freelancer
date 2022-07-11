@@ -11,6 +11,7 @@
     background-color: #1ABC9C;
 }
 
-.about_container {
+.about_container,
+.contact_container {
     width: 70%;
 }
