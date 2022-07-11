@@ -6,6 +6,11 @@
     margin-bottom: 0
 }
 
-.hero {
+.hero,
+.about {
     background-color: #1ABC9C;
+}
+
+.about_container {
+    width: 70%;
 }
