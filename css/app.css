@@ -1,5 +1,9 @@
-.main-header {
-    background-color: goldenrod;
+:root {
+    --bsf_darker: #2C3E50;
+}
+
+.bsf_bg_darker {
+    background-color: var(--bsf_darker);
 }
 
 .main-header ul {
