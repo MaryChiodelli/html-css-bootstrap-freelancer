@@ -109,18 +109,38 @@
         </section><!-- /about -->
 
         <section class="contact py-5">
-            <div class="container-fluid contact_container">
+            <div class="container px_contact">
                 <h2 class="text-uppercase text-center">Contact us</h2>
-                <div class="py-3 text-center">
-                    <i class="fa-solid fa-star"></i>
+                <div class="graphic d-flex justify-content-center align-items-center py-3">
+                    <div class="line"></div>
+                    <span class="icon px-3">
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <div class="line"></div>
                 </div>
-                <p>Name</p>
-                <p>Email Adderss</p>
-                <p>Phone Number</p>
-                <p>Message</p>
-                <a class="btn btn-primary" href="#">Send</a>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="mame">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <div class="mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn text-white bsf_bg_accent">Submit</button>
+                </form>
             </div>
-        </section>
+        </section><!-- /contact -->
     </main>
 
     <footer class="footer text-center text-white">

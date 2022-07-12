@@ -26,7 +26,8 @@
     background-color: white;
 }
 
-.px_about {
+.px_about,
+.px_contact {
     padding: 0 80px;
 }
 
