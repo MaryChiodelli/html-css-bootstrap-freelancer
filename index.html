@@ -123,23 +123,21 @@
                     <div class="line"></div>
                 </div>
                 <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" name="mame">
+                    <div class="form-floating border-bottom mb-2">
+                        <input type="text" class="form-control border-0" id="name" name="mame" placeholder="Mary">
+                        <label for="name">Name</label>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" name="email">
+                    <div class="form-floating border-bottom mb-2">
+                        <input type="email" class="form-control border-0" id="email" name="email" placeholder="name@example.com">
+                        <label for="email">Email Address</label>
                     </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone" name="phone">
+                    <div class="form-floating border-bottom mb-2">
+                        <input type="tel" class="form-control border-0" id="phone" name="phone" placeholder="8901234567">
+                        <label for="phone">Phone Number</label>
                     </div>
-                    <div class="mb-3">
-                        <div class="mb-3">
-                          <label for="message" class="form-label">Message</label>
-                          <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-                        </div>
+                    <div class="form-floating border-bottom mb-4">
+                        <textarea class="form-control border-0 textarea_height" name="message" id="message" placeholder="Type your message here"></textarea>
+                        <label for="message">Message</label>
                     </div>
                     <button type="submit" class="btn text-white bsf_bg_accent">Submit</button>
                 </form>

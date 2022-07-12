@@ -37,6 +37,10 @@
     padding: 0 80px;
 }
 
+.textarea_height {
+    height: 200px!important;
+}
+
 footer .social-icon {
     display: inline-block;
     width: 40px;
