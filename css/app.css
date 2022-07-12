@@ -22,13 +22,12 @@
     background-color: black;
 }
 
-.about {
-    background-color: #1ABC9C;
+.about .graphic .line {
+    background-color: white;
 }
 
-.about_container,
-.contact_container {
-    width: 70%;
+.px_about {
+    padding: 0 80px;
 }
 
 .footer_navigation {
