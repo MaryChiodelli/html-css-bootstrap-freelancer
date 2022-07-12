@@ -1,16 +1,20 @@
 :root {
-    --bsf_darker: #2C3E50;
+    --bsf-darker: #2C3E50;
+    --bsf-accent: #1ABC9C;
 }
 
 .bsf_bg_darker {
-    background-color: var(--bsf_darker);
+    background-color: var(--bsf-darker);
 }
 
-.main-header ul {
-    margin-bottom: 0
+.bsf_bg_accent {
+    background-color: var(--bsf-accent);
 }
 
-.hero,
+.hero img {
+    width: 250px;
+}
+
 .about {
     background-color: #1ABC9C;
 }
